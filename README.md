@@ -1,0 +1,6 @@
+- Operational Database: PostgreSQL (simulating a transactional system)
+- Data Lake Storage Layer: MinIO (an S3-compatible object store)
+- Ingestion & Processing Layer: Apache Spark
+- Catalog Layer: Nessie (for tracking Iceberg tables)
+- Query Engine: Dremio (for running fast SQL queries)
+- BI & Visualization: Apache Superset (for dashboards)

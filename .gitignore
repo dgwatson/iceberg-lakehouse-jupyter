@@ -1,0 +1,12 @@
+.venv
+
+.idea
+
+/docker/minio/data/*
+/docker/postgres/*
+
+.env
+
+
+
+
