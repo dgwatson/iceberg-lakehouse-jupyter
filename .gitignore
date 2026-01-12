@@ -1,13 +1,6 @@
 .venv
-
 .idea
-
-/docker/minio/data/*
-/docker/postgres/*
-
 .env
-
 .DS_Store
 
-
-
+/docker/jupyter/work/.ipynb_checkpoints/
