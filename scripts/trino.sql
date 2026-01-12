@@ -20,7 +20,8 @@ CREATE TABLE iceberg.poc.transactions (
 SELECT * FROM iceberg.poc.transactions;
 
 
-SELECT * FROM postgres.public.transactions;
+SELECT * FROM postgres.poc.transactions;
+SELECT * FROM mysql.poc.transactions;
 
 
 INSERT INTO iceberg.poc.transactions (
@@ -38,4 +39,4 @@ SELECT
     posted_date,
     description,
     amount
-FROM postgres.public.transactions;
+FROM mysql.poc.transactions;
